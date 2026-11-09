@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="only light">
+<title>Rank Hoopers</title>
+<link rel="icon" type="image/png" href="favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+<script>
+window.SITE_VERSION = "29";
+document.write('<link rel="stylesheet" href="css/style.css?v=' + window.SITE_VERSION + '">');
+(function () {
+  var current = window.SITE_VERSION;
+  var match = location.search.match(/[?&]v=([^&]*)/);
+  if (!window.fetch || location.protocol === "file:") return;
+  fetch("version.json?t=" + Date.now(), { cache: "no-store" })
+    .then(function (r) { return r.ok ? r.json() : null; })
+    .then(function (d) {
+      if (!d || d.version == null) return;
+      var latest = String(d.version);
+      if (latest !== current) {
+        if (match && match[1] === latest) return;
+        var params = new URLSearchParams(location.search);
+        params.set("v", latest);
+        location.replace(location.pathname + "?" + params.toString() + location.hash);
+      } else if (match) {
+        var rest = new URLSearchParams(location.search);
+        rest.delete("v");
+        rest = rest.toString();
+        history.replaceState(history.state, "", location.pathname + (rest ? "?" + rest : "") + location.hash);
+      }
+    })
+    .catch(function () {});
+})();
+</script>
+</head>
+<body>
+<main id="app"></main>
+<section class="follow">
+   <div class="socials">
+      
+      <a href="https://x.com/tyufbg" aria-label="X" target="_blank" rel="noopener"><i class="fa-brands fa-x-twitter"></i></a>
+      <a href="mailto:bigmandjole25@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+    </div>
+  </section>
+<script>
+["data/manifest.js", "js/kits.js", "js/sorter.js", "js/share.js", "js/app.js"].forEach(function (src) {
+  document.write('<script src="' + src + '?v=' + window.SITE_VERSION + '"><\/script>');
+});
+</script>
+
+</body>
+</html>
