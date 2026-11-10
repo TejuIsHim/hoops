@@ -1,7 +1,7 @@
 window.SQUAD_MANIFEST = {
   siteUrl: "",
   requestsUrl: "https://script.google.com/macros/s/AKfycbwBsWPWUBbBRoGEGGxUZfLfPQCpkZo4xTdowO7fFycVpBD8_4-xyXCpZCcjt6kWzTIW/exec",
-  showFirst: 5,
+  showFirst: 8,
   sections: [
     
 {
@@ -21,6 +21,14 @@ window.SQUAD_MANIFEST = {
     { id: "pacific", name: "Pacific", teams: ["warriors", "clippers", "lakers", "suns", "kings"] },
     { id: "southwest", name: "Southwest", teams: ["mavericks", "rockets", "grizzlies", "pelicans", "spurs"] }
   ]
-}
+},
+ {
+  id: "wnba",
+  name: "WNBA",
+  groups: [
+    { id: "east", name: "Eastern Conference", teams: ["dream","fever", "sky", "sun", "tempo", "mystics","liberty"] },
+    { id: "west", name: "Western Conference", teams: ["aces", "storm", "lynx", "sparks", "mercury", "fire", "valkyries", "wings"] }
   ]
+},
+]
 };

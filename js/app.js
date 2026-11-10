@@ -715,7 +715,7 @@
         '<section class="hero">' +
           '<p class="eyebrow">Rank Hoopers by @tyufbg</p>' +
           "<h1>Pick a roster &amp; start ranking</h1>" +
-         /*<p class="hero-sub">Pick your favorite of two players until, eventually, you get your full roster ranking. First team lists, positions and photos are taken from the official NBA and ESPN site.<br><br>Creator: <strong>Nicole</strong>! Find me as @nicsginthings on: <a href="https://x.com/nicsginthings" target="_blank" rel="noopener">X</a>, <a href="https://www.instagram.com/nicsginthings" target="_blank" rel="noopener">IG</a>, <a href="https://www.tiktok.com/@nicsginthings" target="_blank" rel="noopener">TikTok</a>, or <a href="https://www.instagram.com/nicolepanggabeann" target="_blank" rel="noopener">my personal Instagram</a>.' +*/
+         '<p class="hero-sub"><b>Creator</b> <a href="https://x.com/tyufbg" target="_blank" rel="noopener">tyufbg</a><br><b>Inspired by </b><a href="https://x.com/nicsginthings" target="_blank" rel="noopener">nicsginthings</a> , creator of <a href="https://t.co/CF5bJU56bU" target="_blank" rel="noopener">player-sorter </a>the european football version that inspired this</p>' +
           
         "</section>" +
         '<div class="home-bar' + (searching() ? " is-searching" : "") + '">' + searchBox() + tabs + "</div>" +

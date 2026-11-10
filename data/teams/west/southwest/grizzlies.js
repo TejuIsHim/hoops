@@ -76,7 +76,7 @@ third: {
 }
   },
   players: [
-    { id: "Cam", name: "Cameron Boozer", number: 27, position: "F", height: "6'8\"" },
+    { id: "Came", name: "Cameron Boozer", number: 27, position: "F", height: "6'8\"" },
     { id: "Car", name: "Carson Cooper", number: 20, position: "C", height: "6'11\"" },
     { id: "Ced", name: "Cedric Coward", number: 23, position: "F", height: "6'5\"" },
     { id: "Zac", name: "Zach Edey", number: 14, position: "C", height: "7'3\"" },
@@ -92,7 +92,7 @@ third: {
     { id: "Oli", name: "Olivier-Maxence Prosper", number: 18, position: "F", height: "6'7\"" },
     { id: "Ric", name: "Richie Saunders", number: 5, position: "G", height: "6'5\"" },
     { id: "Jav", name: "Javon Small", number: 10, position: "G", height: "6'1\"" },
-    { id: "Came", name: "Cam Spencer", number: 24, position: "G", height: "6'3\"" },
+    { id: "Cam", name: "Cam Spencer", number: 24, position: "G", height: "6'3\"" },
     { id: "Isa", name: "Isaiah Stewart", number: 28, position: "C", height: "6'8\"" },
     { id: "Jay", name: "Jaylen Wells", number: 0, position: "F", height: "6'7\"" },
 ],

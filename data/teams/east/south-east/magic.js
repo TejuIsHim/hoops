@@ -76,6 +76,7 @@ third: {
 { id: "Anthony", name: "Anthony Black", number: 0, position: "G", height: "6'7\"" },
 { id: "Jevon", name: "Jevon Carter", number: 2, position: "G", height: "6'0\"" },
 { id: "Alex", name: "Alex Morales", number: 30, position: "G", height: "6'6\"" },
+{ id: "Jalen", name: "Jalen Suggs", number: 4, position: "G", height: "6'5\"" },
 
 { id: "Paolo", name: "Paolo Banchero", number: 5, position: "F", height: "6'10\"" },
 { id: "Jamal", name: "Jamal Cain", number: 8, position: "F", height: "6'7\"" },
@@ -83,9 +84,11 @@ third: {
 { id: "Jonathan", name: "Jonathan Isaac", number: 1, position: "F", height: "6'10\"" },
 { id: "Iza", name: "Izaiyah Nelson", number: 25, position: "F", height: "6'8\"" },
 { id: "Noah", name: "Noah Penda", number: 93, position: "F", height: "6'7\"" },
+{ id: "Franz", name: "Franz Wagner", number: 22, position: "F", height: "6'10\"" },
 
 { id: "Goga", name: "Goga Bitadze", number: 35, position: "C", height: "6'11\"" },
 { id: "Wendell", name: "Wendell Carter Jr.", number: 34, position: "C", height: "6'10\"" },
+{ id: "Nikola", name: "Nikola Vucevic", number: 9, position: "C", height: "6'9\"" },
 { id: "Colin", name: "Colin Castleton", number: 14, position: "C", height: "6'10\"" }
   ]
 });
