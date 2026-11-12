@@ -87,7 +87,7 @@ third: {
     { id: "Ind", name: "Indya Nivar", number: 21, position: "G", height: "5'10\"" },
     { id: "Mad", name: "Madina Okot", number: 11, position: "C", height: "6'6\"" },
     { id: "TeH", name: "Te-Hina Paopao", number: 2, position: "G", height: "5'9\"" },
-    { id: "Ang", name: "Angel Reese", number: 5, position: "F", height: "6'4\"" },
+    { id: "Angel", name: "Angel Reese", number: 5, position: "F", height: "6'4\"" },
     { id: "Mat", name: "Matilde Villa", number: 0, position: "G", height: "5'7\"" },
     { id: "Sha", name: "Shatori Walker-Kimbrough", number: 33, position: "G", height: "5'9\"" },
 ],

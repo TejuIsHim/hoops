@@ -1,6 +1,6 @@
 window.SQUAD_MANIFEST = {
   siteUrl: "",
-  requestsUrl: "https://script.google.com/macros/s/AKfycbwBsWPWUBbBRoGEGGxUZfLfPQCpkZo4xTdowO7fFycVpBD8_4-xyXCpZCcjt6kWzTIW/exec",
+  requestsUrl: "",
   showFirst: 8,
   sections: [
     
@@ -28,6 +28,14 @@ window.SQUAD_MANIFEST = {
   groups: [
     { id: "east", name: "Eastern Conference", teams: ["dream","fever", "sky", "sun", "tempo", "mystics","liberty"] },
     { id: "west", name: "Western Conference", teams: ["aces", "storm", "lynx", "sparks", "mercury", "fire", "valkyries", "wings"] }
+  ]
+},
+{
+  id: "specials",
+  name: "Specials",
+  groups: [
+    { id: "mvps", name: "The Michael Jordan Trophy", teams: ["mvps"] },
+    { id: "wnba-mvps", name: "The A'ja Wilson Trophy", teams: ["wmvp"] }
   ]
 },
 ]
